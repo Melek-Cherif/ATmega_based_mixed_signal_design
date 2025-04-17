@@ -1,5 +1,65 @@
 (kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 41b0ee65-569f-42b7-9c7e-4c72efc7a072)
+
   (paper "A4")
-  (lib_symbols)
-  (symbol_instances)
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 113.792 80.264) (size 37.338 21.844) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 434ac473-e6ff-43e0-9954-819abb2e6def)
+    (property "Sheetname" "Microcontroller" (at 113.792 79.5524 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Microcontroller.kicad_sch" (at 113.792 102.6926 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Mixed_Signal_Design"
+        (path "/41b0ee65-569f-42b7-9c7e-4c72efc7a072" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 68.58 78.994) (size 33.02 25.4) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid bc3efce2-5871-40f7-ae58-b147de6ab15e)
+    (property "Sheetname" "Power" (at 68.58 78.2824 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Power.kicad_sch" (at 68.58 104.9786 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Mixed_Signal_Design"
+        (path "/41b0ee65-569f-42b7-9c7e-4c72efc7a072" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 162.306 81.788) (size 31.496 18.542) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid fc71dcc7-66e6-4910-8854-c03544116286)
+    (property "Sheetname" "Connectors" (at 162.306 81.0764 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "connectors.kicad_sch" (at 162.306 100.9146 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Mixed_Signal_Design"
+        (path "/41b0ee65-569f-42b7-9c7e-4c72efc7a072" (page "4"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
 )
